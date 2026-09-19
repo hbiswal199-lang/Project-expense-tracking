@@ -1,30 +1,20 @@
-# Expense Tracking System
+# 💰 Expense Tracking System
 
-An expense tracking application built using Python, FastAPI, Streamlit, and MySQL.
+A simple expense tracking application built using **Python, FastAPI, Streamlit, and MySQL**.
 
-The application allows users to add, update, view, and analyze their daily expenses.
+It allows users to add, update, view, and analyze their daily expenses.
 
-## Project Structure
+## ✨ Features
 
-- **frontend/**: Contains the Streamlit application code.
-- **backend/**: Contains the FastAPI backend server code.
-- **tests/**: Contains test cases for the project.
-- **requirements.txt**: Lists the required Python packages.
-- **README.md**: Provides an overview and instructions for the project.
-
-## Features
-
-- Add daily expenses
-- Update existing expenses
+- Add and update expenses
 - View expenses by date
 - Categorize expenses
-- Add notes to expenses
-- View expense analytics
+- Add expense notes
 - Calculate total expenses
-- Calculate percentage of spending by category
-- Display expenses using tables and charts
+- View spending percentage by category
+- Display analytics using tables and charts
 
-## Technologies Used
+## 🛠️ Technologies
 
 - Python
 - FastAPI
@@ -33,10 +23,55 @@ The application allows users to add, update, view, and analyze their daily expen
 - Pandas
 - Requests
 
-## Setup Instructions
+## 📂 Project Structure
 
-### 1. Clone the repository
+```text
+Project-expense-tracking/
+│
+├── backend/
+├── frontend/
+├── tests/
+├── requirements.txt
+├── README.md
+└── LICENSE
 
-```bash
-git clone https://github.com/yourusername/expense-tracking.git
-cd expense-tracking
+🚀 Setup
+Clone the repository
+
+git clone https://github.com/hbiswal199-lang/Project-expense-tracking.git
+cd Project-expense-tracking
+
+Install dependencies
+pip install -r requirements.txt
+
+Run the Backend
+uvicorn backend.server:app --reload
+
+Run the Frontend
+streamlit run frontend/app.py
+
+📊 Analytics
+
+The analytics section allows users to select a date range and view:
+
+Total expenses
+Category-wise expenses
+Spending percentage
+Expense charts
+🔮 Future Improvements
+User authentication
+Budget management
+Monthly expense reports
+CSV/Excel export
+Cloud deployment
+👨‍💻 Author
+
+Ruturaj Biswal
+
+GitHub: https://github.com/hbiswal199-lang
+
+📄 License
+
+This project is licensed under the MIT License.
+
+This is the version I recommend using for your GitHub repository: **short, clean, and professional.**
