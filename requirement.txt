@@ -1,0 +1,8 @@
+streamlit==version 1.55.0
+pandas==2.0.2
+pytest==1.10.9
+uvicorn==0.30.6
+requests=2.31.0
+pytest==8.3.2
+fastapi==0.122.2
+mysql-connector-python==8.0.33
